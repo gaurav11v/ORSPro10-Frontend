@@ -31,5 +31,7 @@ export class EndpointServiceService {
   public VENUE = this.SERVER_URL + "/Venue";
   public THEME = this.SERVER_URL + "/Theme";
   public DEBUGLOG = this.SERVER_URL + "/DebugLog";
+  public DECRYPTION = this.SERVER_URL + "/Decryption";
+  public USAGE = this.SERVER_URL + "/Usage";
   
 }

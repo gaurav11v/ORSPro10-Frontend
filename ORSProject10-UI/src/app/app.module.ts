@@ -74,6 +74,10 @@ import { ThemeComponent } from './theme/theme.component';
 import { ThemeListComponent } from './theme/theme-list.component';
 import { DebuglogComponent } from './debuglog/debuglog.component';
 import { DebuglogListComponent } from './debuglog/debuglog-list.component';
+import { DecryptionComponent } from './decryption/decryption.component';
+import { DecryptionListComponent } from './decryption/decryption-list.component';
+import { UsageComponent } from './usage/usage.component';
+import { UsageListComponent } from './usage/usage-list.component';
 
 
 
@@ -150,7 +154,11 @@ export function myHttpLoader(http: HttpClient) {
     ThemeComponent,
     ThemeListComponent,
     DebuglogComponent,
-    DebuglogListComponent
+    DebuglogListComponent,
+    DecryptionComponent,
+    DecryptionListComponent,
+    UsageComponent,
+    UsageListComponent
  
 
     

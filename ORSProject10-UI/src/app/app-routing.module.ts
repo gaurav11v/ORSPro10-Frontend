@@ -56,6 +56,10 @@ import { ThemeComponent } from './theme/theme.component';
 import { ThemeListComponent } from './theme/theme-list.component';
 import { DebuglogComponent } from './debuglog/debuglog.component';
 import { DebuglogListComponent } from './debuglog/debuglog-list.component';
+import { DecryptionComponent } from './decryption/decryption.component';
+import { DecryptionListComponent } from './decryption/decryption-list.component';
+import { UsageComponent } from './usage/usage.component';
+import { UsageListComponent } from './usage/usage-list.component';
 
 
 
@@ -455,6 +459,36 @@ const routes: Routes = [
      {
         path:'debuglog/:id',
         component:DebuglogComponent
+    },
+
+    {
+        path: 'decryption',
+        component: DecryptionComponent
+
+
+    },
+ {
+        path:'decryptionlist',
+        component:DecryptionListComponent
+    },
+     {
+        path:'decryption/:id',
+        component:DecryptionComponent
+    },
+
+    {
+        path: 'usage',
+        component: UsageComponent
+
+
+    },
+ {
+        path:'usagelist',
+        component: UsageListComponent
+    },
+     {
+        path:'usage/:id',
+        component:UsageComponent
     },
 
 ];
