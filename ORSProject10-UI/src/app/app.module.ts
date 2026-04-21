@@ -78,6 +78,8 @@ import { DecryptionComponent } from './decryption/decryption.component';
 import { DecryptionListComponent } from './decryption/decryption-list.component';
 import { UsageComponent } from './usage/usage.component';
 import { UsageListComponent } from './usage/usage-list.component';
+import { PolicyComponent } from './policy/policy.component';
+import { PolicyListComponent } from './policy/policy-list.component';
 
 
 
@@ -158,7 +160,9 @@ export function myHttpLoader(http: HttpClient) {
     DecryptionComponent,
     DecryptionListComponent,
     UsageComponent,
-    UsageListComponent
+    UsageListComponent,
+    PolicyComponent,
+    PolicyListComponent
  
 
     

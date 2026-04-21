@@ -33,5 +33,6 @@ export class EndpointServiceService {
   public DEBUGLOG = this.SERVER_URL + "/DebugLog";
   public DECRYPTION = this.SERVER_URL + "/Decryption";
   public USAGE = this.SERVER_URL + "/Usage";
+  public POLICY = this.SERVER_URL + "/Policy";
   
 }

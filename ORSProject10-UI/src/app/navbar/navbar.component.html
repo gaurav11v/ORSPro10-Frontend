@@ -429,6 +429,21 @@
         </div>
         </li>
 
+        <!-- =================================== Policy =========================================== -->
+<li class="nav-item dropdown" style="padding-left: 5px">
+        <a class="nav-link dropdown-toggle" [routerLink]="['/#']" id="navbarDropdown" role="button"
+          data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          <font style="color: white">{{"Policy" | translate }}</font>
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" [routerLink]="['/policy']"><i class="fa fa-cart"></i> &nbsp;
+            {{ "Add Policy" | translate }}</a>
+          <a class="dropdown-item" [routerLink]="['/policylist']"><i class="fa fa-cartlist"></i> &nbsp;
+            {{ "Policy List" | translate }}
+          </a>
+        </div>
+        </li>
+
 
 
       <li class="nav-item dropdown" style="padding-left: 5px">

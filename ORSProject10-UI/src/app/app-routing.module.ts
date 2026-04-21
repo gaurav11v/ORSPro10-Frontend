@@ -60,6 +60,8 @@ import { DecryptionComponent } from './decryption/decryption.component';
 import { DecryptionListComponent } from './decryption/decryption-list.component';
 import { UsageComponent } from './usage/usage.component';
 import { UsageListComponent } from './usage/usage-list.component';
+import { PolicyComponent } from './policy/policy.component';
+import { PolicyListComponent } from './policy/policy-list.component';
 
 
 
@@ -489,6 +491,21 @@ const routes: Routes = [
      {
         path:'usage/:id',
         component:UsageComponent
+    },
+
+    {
+        path: 'policy',
+        component: PolicyComponent
+
+
+    },
+ {
+        path:'policylist',
+        component: PolicyListComponent
+    },
+     {
+        path:'policy/:id',
+        component:PolicyComponent
     },
 
 ];
