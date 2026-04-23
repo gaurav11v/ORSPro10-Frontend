@@ -444,6 +444,21 @@
         </div>
         </li>
 
+          <!-- =================================== Feature =========================================== -->
+<li class="nav-item dropdown" style="padding-left: 5px">
+        <a class="nav-link dropdown-toggle" [routerLink]="['/#']" id="navbarDropdown" role="button"
+          data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          <font style="color: white">{{"Feature" | translate }}</font>
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" [routerLink]="['/feature']"><i class="fa fa-cart"></i> &nbsp;
+            {{ "Add Feature" | translate }}</a>
+          <a class="dropdown-item" [routerLink]="['/featurelist']"><i class="fa fa-cartlist"></i> &nbsp;
+            {{ "Feature List" | translate }}
+          </a>
+        </div>
+        </li>
+
 
 
       <li class="nav-item dropdown" style="padding-left: 5px">

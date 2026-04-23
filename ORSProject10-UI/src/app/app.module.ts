@@ -80,6 +80,8 @@ import { UsageComponent } from './usage/usage.component';
 import { UsageListComponent } from './usage/usage-list.component';
 import { PolicyComponent } from './policy/policy.component';
 import { PolicyListComponent } from './policy/policy-list.component';
+import { FeatureComponent } from './feature/feature.component';
+import { FeatureListComponent } from './feature/feature-list.component';
 
 
 
@@ -162,7 +164,9 @@ export function myHttpLoader(http: HttpClient) {
     UsageComponent,
     UsageListComponent,
     PolicyComponent,
-    PolicyListComponent
+    PolicyListComponent,
+    FeatureComponent,
+    FeatureListComponent
  
 
     

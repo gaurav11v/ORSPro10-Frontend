@@ -62,6 +62,8 @@ import { UsageComponent } from './usage/usage.component';
 import { UsageListComponent } from './usage/usage-list.component';
 import { PolicyComponent } from './policy/policy.component';
 import { PolicyListComponent } from './policy/policy-list.component';
+import { FeatureComponent } from './feature/feature.component';
+import { FeatureListComponent } from './feature/feature-list.component';
 
 
 
@@ -497,15 +499,28 @@ const routes: Routes = [
         path: 'policy',
         component: PolicyComponent
 
-
     },
- {
+     {
         path:'policylist',
         component: PolicyListComponent
     },
      {
         path:'policy/:id',
         component:PolicyComponent
+    },
+
+      {
+        path: 'feature',
+        component: FeatureComponent
+
+    },
+     {
+        path:'featurelist',
+        component: FeatureListComponent
+    },
+     {
+        path:'feature/:id',
+        component:FeatureComponent
     },
 
 ];
