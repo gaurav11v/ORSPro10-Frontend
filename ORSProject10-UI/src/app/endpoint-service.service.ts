@@ -35,4 +35,5 @@ export class EndpointServiceService {
   public USAGE = this.SERVER_URL + "/Usage";
   public POLICY = this.SERVER_URL + "/Policy";
   public FEATURE = this.SERVER_URL + "/Feature";
+  public PASSWORDRESET = this.SERVER_URL + "/PasswordReset";
 }

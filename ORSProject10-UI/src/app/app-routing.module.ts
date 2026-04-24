@@ -64,6 +64,8 @@ import { PolicyComponent } from './policy/policy.component';
 import { PolicyListComponent } from './policy/policy-list.component';
 import { FeatureComponent } from './feature/feature.component';
 import { FeatureListComponent } from './feature/feature-list.component';
+import { PasswordresetComponent } from './passwordreset/passwordreset.component';
+import { PasswordresetListComponent } from './passwordreset/passwordreset-list.component';
 
 
 
@@ -521,6 +523,20 @@ const routes: Routes = [
      {
         path:'feature/:id',
         component:FeatureComponent
+    },
+
+    {
+        path: 'passwordreset',
+        component: PasswordresetComponent
+
+    },
+     {
+        path:'passwordresetlist',
+        component: PasswordresetListComponent
+    },
+     {
+        path:'passwordreset/:id',
+        component:PasswordresetComponent
     },
 
 ];

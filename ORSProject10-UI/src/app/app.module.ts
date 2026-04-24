@@ -82,6 +82,8 @@ import { PolicyComponent } from './policy/policy.component';
 import { PolicyListComponent } from './policy/policy-list.component';
 import { FeatureComponent } from './feature/feature.component';
 import { FeatureListComponent } from './feature/feature-list.component';
+import { PasswordresetComponent } from './passwordreset/passwordreset.component';
+import { PasswordresetListComponent } from './passwordreset/passwordreset-list.component';
 
 
 
@@ -166,7 +168,9 @@ export function myHttpLoader(http: HttpClient) {
     PolicyComponent,
     PolicyListComponent,
     FeatureComponent,
-    FeatureListComponent
+    FeatureListComponent,
+    PasswordresetComponent,
+    PasswordresetListComponent
  
 
     
