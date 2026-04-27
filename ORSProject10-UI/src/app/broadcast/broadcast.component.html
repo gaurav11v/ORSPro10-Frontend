@@ -34,10 +34,10 @@
         <div class="card-body shadow-lg grad">
           <form name="assetForm">
             <h2 *ngIf="!form.data.id" class="text-primary font-weight-bold" style="text-align: center;">
-              {{ 'Add PasswordReset' | translate }}
+              {{ 'Add Broadcast' | translate }}
             </h2>
             <h2 *ngIf="form.data.id" class="text-primary font-weight-bold" style="text-align: center;">
-              {{ 'Update PasswordReset' | translate }}
+              {{ 'Update Broadcast' | translate }}
             </h2>
 
             <!-- Form error messages -->
@@ -54,7 +54,7 @@
 
             <div class="form-group pt-2">
               <label>
-                <b>{{ 'Reset code' | translate }}</b>
+                <b>{{ 'Broadcast code' | translate }}</b>
                 <span class="required-field">*</span>
               </label>
 
@@ -63,16 +63,16 @@
                   <div class="input-group-text"><i class="fa fa-user grey-text"></i></div>
                 </div>
 
-                <input type="text" name="resetCode" [(ngModel)]="form.data.resetCode" class="form-control"
-                  placeholder="{{ 'Enter Reset Code' | translate }}">
+                <input type="text" name="broadcastCode" [(ngModel)]="form.data.broadcastCode" class="form-control"
+                  placeholder="{{ 'Enter Broadcast Code' | translate }}">
               </div>
 
-              <span *ngIf="form.inputerror.resetCode" class="alertRedColor">{{ form.inputerror.resetCode }}</span>
+              <span *ngIf="form.inputerror.broadcastCode" class="alertRedColor">{{ form.inputerror.broadcastCode }}</span>
             </div>
 
             <div class="form-group pt-2">
               <label>
-                <b>{{ 'User Name' | translate }}</b>
+                <b>{{ 'Message' | translate }}</b>
                 <span class="required-field">*</span>
               </label>
 
@@ -81,16 +81,16 @@
                   <div class="input-group-text"><i class="fa fa-user grey-text"></i></div>
                 </div>
 
-                <input type="text" name="userName" [(ngModel)]="form.data.userName" class="form-control"
-                  placeholder="{{ 'Enter User Name' | translate }}">
+                <input type="text" name="message" [(ngModel)]="form.data.message" class="form-control"
+                  placeholder="{{ 'Enter Message' | translate }}">
               </div>
 
-              <span *ngIf="form.inputerror.userName" class="alertRedColor">{{ form.inputerror.userName }}</span>
+              <span *ngIf="form.inputerror.message" class="alertRedColor">{{ form.inputerror.message }}</span>
             </div>
 
             <div class="form-group pt-2">
               <label>
-                <b>{{ 'Reset Token' | translate }}</b>
+                <b>{{ 'SentBy' | translate }}</b>
                 <span class="required-field">*</span>
               </label>
 
@@ -99,11 +99,11 @@
                   <div class="input-group-text"><i class="fa fa-user grey-text"></i></div>
                 </div>
 
-                <input type="text" name="resetToken" [(ngModel)]="form.data.resetToken" class="form-control"
-                  placeholder="{{ 'Enter Reset Token' | translate }}">
+                <input type="text" name="sentBy" [(ngModel)]="form.data.sentBy" class="form-control"
+                  placeholder="{{ 'Enter sentBy' | translate }}">
               </div>
 
-              <span *ngIf="form.inputerror.resetToken" class="alertRedColor">{{ form.inputerror.resetToken }}</span>
+              <span *ngIf="form.inputerror.sentBy" class="alertRedColor">{{ form.inputerror.sentBy }}</span>
             </div>
 
 
@@ -158,7 +158,7 @@
               </div>
 
               <div class="pt-2">
-                <a class="btn btn-warning mr-1" type="button" [routerLink]="['/passwordresetlist']"
+                <a class="btn btn-warning mr-1" type="button" [routerLink]="['/broadcastlist']"
                   style="text-decoration: none; color: white;">
                   {{ 'List' | translate }}
                 </a>

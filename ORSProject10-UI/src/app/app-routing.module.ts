@@ -66,6 +66,8 @@ import { FeatureComponent } from './feature/feature.component';
 import { FeatureListComponent } from './feature/feature-list.component';
 import { PasswordresetComponent } from './passwordreset/passwordreset.component';
 import { PasswordresetListComponent } from './passwordreset/passwordreset-list.component';
+import { BroadcastComponent } from './broadcast/broadcast.component';
+import { BroadcastListComponent } from './broadcast/broadcast-list.component';
 
 
 
@@ -539,6 +541,19 @@ const routes: Routes = [
         component:PasswordresetComponent
     },
 
+     {
+        path: 'broadcast',
+        component: BroadcastComponent
+
+    },
+     {
+        path:'broadcastlist',
+        component: BroadcastListComponent
+    },
+     {
+        path:'broadcast/:id',
+        component:BroadcastComponent
+    },
 ];
 
 @NgModule({

@@ -84,6 +84,8 @@ import { FeatureComponent } from './feature/feature.component';
 import { FeatureListComponent } from './feature/feature-list.component';
 import { PasswordresetComponent } from './passwordreset/passwordreset.component';
 import { PasswordresetListComponent } from './passwordreset/passwordreset-list.component';
+import { BroadcastComponent } from './broadcast/broadcast.component';
+import { BroadcastListComponent } from './broadcast/broadcast-list.component';
 
 
 
@@ -170,7 +172,9 @@ export function myHttpLoader(http: HttpClient) {
     FeatureComponent,
     FeatureListComponent,
     PasswordresetComponent,
-    PasswordresetListComponent
+    PasswordresetListComponent,
+    BroadcastComponent,
+    BroadcastListComponent
  
 
     
