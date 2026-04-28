@@ -68,6 +68,8 @@ import { PasswordresetComponent } from './passwordreset/passwordreset.component'
 import { PasswordresetListComponent } from './passwordreset/passwordreset-list.component';
 import { BroadcastComponent } from './broadcast/broadcast.component';
 import { BroadcastListComponent } from './broadcast/broadcast-list.component';
+import { AgreementComponent } from './agreement/agreement.component';
+import { AgreementListComponent } from './agreement/agreement-list.component';
 
 
 
@@ -553,6 +555,20 @@ const routes: Routes = [
      {
         path:'broadcast/:id',
         component:BroadcastComponent
+    },
+
+    {
+        path: 'agreement',
+        component: AgreementComponent
+
+    },
+     {
+        path:'agreementlist',
+        component: AgreementListComponent
+    },
+     {
+        path:'agreement/:id',
+        component:AgreementComponent
     },
 ];
 

@@ -37,5 +37,6 @@ export class EndpointServiceService {
   public FEATURE = this.SERVER_URL + "/Feature";
   public PASSWORDRESET = this.SERVER_URL + "/PasswordReset";
   public BROADCAST = this.SERVER_URL + "/Broadcast";
+  public AGREEMENT = this.SERVER_URL + "/Agreement";
 
 }

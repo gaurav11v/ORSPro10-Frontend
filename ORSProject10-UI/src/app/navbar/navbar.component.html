@@ -489,6 +489,21 @@
         </div>
         </li>
 
+        <!-- =================================== Agreement =========================================== -->
+<li class="nav-item dropdown" style="padding-left: 5px">
+        <a class="nav-link dropdown-toggle" [routerLink]="['/#']" id="navbarDropdown" role="button"
+          data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          <font style="color: white">{{"Agreement" | translate }}</font>
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" [routerLink]="['/agreement']"><i class="fa fa-cart"></i> &nbsp;
+            {{ "Add Agreement" | translate }}</a>
+          <a class="dropdown-item" [routerLink]="['/agreementlist']"><i class="fa fa-cartlist"></i> &nbsp;
+            {{ "Agreement List" | translate }}
+          </a>
+        </div>
+        </li>
+
 
 
 

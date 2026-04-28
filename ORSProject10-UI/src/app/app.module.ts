@@ -86,6 +86,8 @@ import { PasswordresetComponent } from './passwordreset/passwordreset.component'
 import { PasswordresetListComponent } from './passwordreset/passwordreset-list.component';
 import { BroadcastComponent } from './broadcast/broadcast.component';
 import { BroadcastListComponent } from './broadcast/broadcast-list.component';
+import { AgreementComponent } from './agreement/agreement.component';
+import { AgreementListComponent } from './agreement/agreement-list.component';
 
 
 
@@ -174,7 +176,9 @@ export function myHttpLoader(http: HttpClient) {
     PasswordresetComponent,
     PasswordresetListComponent,
     BroadcastComponent,
-    BroadcastListComponent
+    BroadcastListComponent,
+    AgreementComponent,
+    AgreementListComponent
  
 
     
